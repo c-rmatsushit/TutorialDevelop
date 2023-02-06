@@ -9,6 +9,6 @@ public class LoginController {
     @GetMapping("/login")
     public String getLogin() {
         // login.htmlに画面遷移
-        return "login";
+        return "user/login";
     }
 }
